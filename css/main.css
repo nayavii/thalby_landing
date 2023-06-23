@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #000000;
   font-weight: 400;
+  font-size: 17px;
 }
 
 .container {
@@ -12,6 +13,12 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }
 
 /* header */
@@ -40,7 +47,6 @@ a {
 
 .header__logo {
   margin-left: 102px;
-  display: flex;
 }
 
 .header__icons {
@@ -99,3 +105,85 @@ a {
   line-height: 20px;
   text-align: center;
 }
+
+/* sellers section */
+
+.sellers {
+  padding: 60px 0 248px;
+  text-align: center;
+}
+
+.sellers__heading__text, .sellers__heading__desc {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.sellers__heading__text {
+  margin: 27px auto 47px;
+  width: 632px;
+}
+
+.sellers__wrapper h2 {
+  margin: 88px auto 52px;
+}
+.sellers__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sellers__item__title {
+  margin: 27px 0 17px;
+  font-weight: 700;
+}
+
+.sellers__item button {
+  margin-top: 10px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+/* info */
+
+.info {
+  padding: 76px 0 51px;
+  background: rgba(204, 204, 204, 0.30);
+
+}
+
+.info .container {
+  display: flex;
+}
+
+.info__content {
+  margin-top: calc(146px - 76px);
+  width: 498px;
+  margin-left: 50px;
+}
+
+.info__content p {
+  margin: 30px 0 40px;
+  font-size: 36px;
+}
+
+.info__content a {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+/* info_middle */
+
+.info_middle {
+  background: rgba(204, 204, 204, 0.60);
+}
+
+.info_middle .container {
+  flex-direction: row-reverse;
+}
+
+.info_middle .info__content {
+  text-align: right;
+  margin-right: 50px;
+  margin-left: 0;
+}
+
+
