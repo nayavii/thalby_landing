@@ -186,4 +186,55 @@ h2 {
   margin-left: 0;
 }
 
+/* people section */
 
+.people {
+  padding-top: 52px;
+}
+
+.people h2 {
+  text-align: center;
+}
+
+.people__cards {
+  height: 480px;
+  background: #F0F0F0;
+  margin-top: 290px;
+  position: relative;
+}
+
+.people__cards .container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: -188px;
+  left: 0;
+  right: 0;
+}
+
+.people__item {
+  width: 288px;
+  text-align: center;
+}
+
+.people__item a {
+  font-weight: 700;
+  text-decoration-line: underline;
+  font-size: 18px;
+}
+
+.people__item__quote {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin: 35px 0 40px;
+}
+
+.people__item__quote:nth-child(2){
+  font-size: 24px;
+}
+
+.people__item__name {
+  margin-bottom: 44px;
+  font-size: 19px;
+}
